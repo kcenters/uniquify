@@ -3,7 +3,7 @@ module Uniquify
     base.extend ClassMethods
   end
   
-  def ensure_unique(name)
+  def self.ensure_unique(name)
     begin
       self[name] = yield
     end while self.class.exists?(name => self[name])
