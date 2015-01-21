@@ -30,6 +30,6 @@ module Uniquify
   end
 end
 
-class ActiveRecord::Base
-  include Uniquify
-end
+# class ActiveRecord::Base
+#   include Uniquify
+# end
