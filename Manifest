@@ -1,4 +1,6 @@
+CHANGELOG
+Manifest
 README.rdoc
 Rakefile
 lib/uniquify.rb
-Manifest
+uniquify.gemspec

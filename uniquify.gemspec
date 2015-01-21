@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.date = "2015-01-21"
   s.description = "Generate a unique token with Active Record."
   s.email = "ryan@railscasts.com"
-  s.extra_rdoc_files = ["README.rdoc", "lib/uniquify.rb"]
-  s.files = ["README.rdoc", "Rakefile", "lib/uniquify.rb", "Manifest", "uniquify.gemspec"]
+  s.extra_rdoc_files = ["CHANGELOG", "README.rdoc", "lib/uniquify.rb"]
+  s.files = ["CHANGELOG", "Manifest", "README.rdoc", "Rakefile", "lib/uniquify.rb", "uniquify.gemspec"]
   s.homepage = "http://github.com/ryanb/uniquify"
   s.rdoc_options = ["--line-numbers", "--title", "Uniquify", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
